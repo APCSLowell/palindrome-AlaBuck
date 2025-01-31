@@ -35,6 +35,7 @@ public void tester()
     }
   }
 }
+}
 public boolean palindrome(String word)
 {
   String wordlow = noCapitals(word);
@@ -77,4 +78,4 @@ public String onlyLetters(String sString){
   }
   return onlyLets;
 }
-}
+
