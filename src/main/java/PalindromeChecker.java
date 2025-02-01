@@ -35,7 +35,6 @@ public void tester()
     }
   }
 }
-}
 public boolean palindrome(String word)
 {
   String wordlow = noCapitals(word);
@@ -50,8 +49,8 @@ public boolean palindrome(String word)
 public String reverse(String str)
 {
     String revWord = "";
-    int leng = sWord.length();
-    for(int i=sWord.length(); i>0; i--){
+    int leng = str.length();
+    for(int i=leng; i>0; i--){
     revWord+=sWord.substring(i-1,i);
   }
   return revWord;
@@ -78,4 +77,4 @@ public String onlyLetters(String sString){
   }
   return onlyLets;
 }
-
+}
