@@ -39,7 +39,8 @@ public boolean palindrome(String word)
 {
   String wordlow = noCapitals(word);
   String wordxspace = noSpaces(wordlow);
-  if(wordxspace.equals(reverse(wordxspace))){
+  String wordletters = onlyLetters(wordxspace);
+  if(wordletters.equals(reverse(wordletters))){
     return true;
   }
   else{
