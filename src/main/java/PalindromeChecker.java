@@ -51,7 +51,7 @@ public String reverse(String str)
     String revWord = "";
     int leng = str.length();
     for(int i=leng; i>0; i--){
-    revWord+=sWord.substring(i-1,i);
+    revWord+=str.substring(i-1,i);
   }
   return revWord;
 }
